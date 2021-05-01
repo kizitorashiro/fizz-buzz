@@ -16,6 +16,8 @@ jobs:
         run: npm ci
       - name: Check Env
         run: pwd; uname -a; printenv
+      - name: HelloWorld
+        uses: kizitorashiro/hello-action@v1.0.0
       - name: Test
         run: npm test
   lint:
