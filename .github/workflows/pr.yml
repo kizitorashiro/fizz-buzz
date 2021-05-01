@@ -1,0 +1,12 @@
+name: PR Comment
+on: pull_request
+
+jobs:
+  pr_comment:
+    name: PR Comment
+    runs-on: ubuntu-latest
+    steps: 
+      - name: github-actions-up-and-running/pr-comment@v1.0.0
+        with: 
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          message: Nice PR!
