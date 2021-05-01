@@ -6,7 +6,7 @@ module.exports = function fizzbuzz(value) {
     return "Fizz";
   }
   if (value % 5 === 0) {
-    return "Buzz1";
+    return "Buzz";
   }
   return String(value);
 };
