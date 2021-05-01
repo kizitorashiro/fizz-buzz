@@ -6,7 +6,7 @@ jobs:
     name: PR Comment
     runs-on: ubuntu-latest
     steps: 
-      - uses: kizitorashiro/pr-comment@v1.0.1
+      - uses: kizitorashiro/hello-ts-action@v1.0.1
         with: 
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           message: Nice PR!
